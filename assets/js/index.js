@@ -8,6 +8,8 @@ let depoimento3 = document.getElementById("depoimento3");
 let depoimento4 = document.getElementById("depoimento4");
 let imgSetaEsquerda = document.getElementById("imgSetaEsquerda");
 let imgSetaDireita = document.getElementById("imgSetaDireita");
+let linkCompra = document.getElementById("compra");
+let divAviso = document.getElementById("aviso");
 
 imgMenu.addEventListener("click", () => {
     if (menu.className == "close") {
@@ -72,4 +74,8 @@ imgSetaEsquerda.addEventListener("click", () => {
         depoimento3.style.display = "flex";
         depoimento4.style.display = "none";
     }
+});
+
+linkCompra.addEventListener("click", () => {
+    divAviso.innerHTML = "<p><strong>Este é apenas um projeto criado por Everton Rafael, então todo o curso apresentando no site é fictício</strong></p>";
 });

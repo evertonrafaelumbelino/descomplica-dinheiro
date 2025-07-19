@@ -316,8 +316,16 @@ div#preco > p#precoAVista {
     font-family: "Bebas Neue";
 }
 
-div#blocoInfo > a {
+a#compra {
     margin: 20px 0px;
+}
+
+div#aviso {
+    margin: 15px 0px 30px 0px;
+}
+
+div#aviso strong {
+    color: #639808;
 }
 
 footer {
@@ -327,4 +335,5 @@ footer {
     align-items: center;
     background-color: #171717;
     height: 100px;
+    padding: 10px;
 }
