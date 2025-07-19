@@ -1,0 +1,78 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 17px;
+    }
+
+    p > strong {
+        font-size: 18px;
+    }
+
+    a {
+        font-size: 17px;
+    }
+
+    #imgMenu {
+        display: none;
+    }
+
+    #menu {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-left: -170px;
+    }
+
+    #menu > a {
+        border-radius: 12px;
+        margin: 0px 5px;
+    }
+
+    #menu > a:hover {
+        background-color: #9FFC01;
+        color: black;
+    }
+
+    div#conteudoHero {
+        width: 97vw;
+    }
+
+    #divPilares {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0px 20px;
+    }
+
+    div#blocoInfo > p {
+        font-size: 18px;
+    }
+
+    div#preco > p#precoAntigo {
+        font-size: 30px;
+    }
+
+    div#preco > p#precoPromocao {
+        font-size: 38px;
+    }
+
+    div#preco > p#precoPromocao > span {
+        font-size: 60px;
+    }
+
+    div#preco > p#precoAVista {
+        font-size: 30px;
+    }
+}

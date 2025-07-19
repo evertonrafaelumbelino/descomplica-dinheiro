@@ -1,0 +1,44 @@
+@media screen and (min-width: 1024px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    p > strong {
+        font-size: 20px;
+    }
+
+    a {
+        font-size: 18px;
+    }
+
+    #menu {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-left: -250px;
+    }
+
+    #divPilares {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0px 20px;
+    }
+
+    div#blocoInfo > p {
+        font-size: 19px;
+    }
+}
